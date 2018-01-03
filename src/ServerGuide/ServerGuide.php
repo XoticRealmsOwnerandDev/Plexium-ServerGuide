@@ -33,8 +33,8 @@ class ServerGuide extends PluginBase implements Listener{
 
 	public function onEnable(){
 		 $this->getLogger()->info("§bServerGuide has been enabled!".PHP_EOL.
-		                                             "Author: TheAz928 (Az928)".PHP_EOL.
-		                                             "Github: Github.com/ShiningMC/ServerGuide");
+		                                             "Author: StrafelessPvP (Az928)".PHP_EOL.
+		                                             "Github: Github.com/StrafelessPvP/ServerGuide");
 	    $this->getServer()->getPluginManager()->registerEvents($this, $this);
 	    $this->getServer()->getScheduler()->scheduleRepeatingTask(new CheckTask($this), 20);
 	}
